@@ -6,11 +6,12 @@
 /*   By: ehosu <ehosu@student.42wolfsburg.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/21 18:10:52 by ehosu             #+#    #+#             */
-/*   Updated: 2021/05/24 10:50:14 by ehosu            ###   ########.fr       */
+/*   Updated: 2021/10/11 13:37:53 by ehosu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
 	size_t	to_copy;

@@ -6,11 +6,12 @@
 /*   By: ehosu <ehosu@student.42wolfsburg.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/18 09:28:52 by ehosu             #+#    #+#             */
-/*   Updated: 2021/06/04 13:52:01 by ehosu            ###   ########.fr       */
+/*   Updated: 2021/10/11 13:37:22 by ehosu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
 size_t	ft_strlcpy(char *dest, const char *src, size_t size)
 {
 	size_t	i;

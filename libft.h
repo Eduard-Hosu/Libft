@@ -6,7 +6,7 @@
 /*   By: ehosu <ehosu@student.42wolfsburg.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/21 14:40:47 by ehosu             #+#    #+#             */
-/*   Updated: 2021/06/16 11:20:08 by ehosu            ###   ########.fr       */
+/*   Updated: 2021/10/20 12:58:05 by ehosu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,5 +63,7 @@ void	ft_lstdelone(t_list *lst, void (*del)(void *));
 void	ft_lstadd_back(t_list **lst, t_list *new);
 void	ft_lstclear(t_list **lst, void (*del)(void *));
 void	ft_lstiter(t_list *lst, void (*f)(void *));
+void	make_string(char *result, long int n, int len, int is_negativ);
+int		numb_length(unsigned long numb);
 
 #endif

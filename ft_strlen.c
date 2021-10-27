@@ -6,23 +6,20 @@
 /*   By: ehosu <ehosu@student.42wolfsburg.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/14 14:29:16 by ehosu             #+#    #+#             */
-/*   Updated: 2021/05/21 15:18:11 by ehosu            ###   ########.fr       */
+/*   Updated: 2021/10/12 15:13:26 by ehosu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
 size_t	ft_strlen(const char *str)
 {
 	size_t	i;
 
-	if (!str)
-	{
-		return (0);
-	}
 	i = 0;
+	if (!str)
+		return (i);
 	while (str[i])
-	{
 		i++;
-	}
 	return (i);
 }

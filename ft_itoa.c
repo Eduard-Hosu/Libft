@@ -6,12 +6,13 @@
 /*   By: ehosu <ehosu@student.42wolfsburg.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/31 15:22:14 by ehosu             #+#    #+#             */
-/*   Updated: 2021/05/31 15:46:00 by ehosu            ###   ########.fr       */
+/*   Updated: 2021/10/20 14:47:39 by ehosu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-static int	numb_length(long int numb)
+
+int	numb_length(unsigned long numb)
 {
 	int	length;
 
@@ -26,7 +27,7 @@ static int	numb_length(long int numb)
 	return (length);
 }
 
-static void	make_string(char *result, long int n, int len, int is_negativ)
+void	make_string(char *result, long int n, int len, int is_negativ)
 {	
 	result[len] = '\0';
 	len--;
@@ -57,7 +58,7 @@ char	*ft_itoa(int n)
 	n_length = numb_length(new_n);
 	if (is_negative)
 		n_length++;
-	result = (char *)malloc(n_length + 1);
+	result = (char *)ft_calloc((n_length + 1), sizeof(char));
 	if (result == NULL)
 		return (NULL);
 	make_string(result, new_n, n_length, is_negative);

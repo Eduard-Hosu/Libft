@@ -6,11 +6,12 @@
 /*   By: ehosu <ehosu@student.42wolfsburg.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/02 16:04:16 by ehosu             #+#    #+#             */
-/*   Updated: 2021/06/02 16:16:50 by ehosu            ###   ########.fr       */
+/*   Updated: 2021/10/11 13:35:36 by ehosu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
 int	ft_lstsize(t_list *lst)
 {
 	int		count;

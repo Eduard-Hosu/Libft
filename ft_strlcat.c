@@ -6,11 +6,12 @@
 /*   By: ehosu <ehosu@student.42wolfsburg.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/18 14:41:10 by ehosu             #+#    #+#             */
-/*   Updated: 2021/06/04 01:40:01 by ehosu            ###   ########.fr       */
+/*   Updated: 2021/10/11 13:37:18 by ehosu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
 size_t	ft_strlcat(char *dest, const char *src, size_t size)
 {
 	size_t	i;

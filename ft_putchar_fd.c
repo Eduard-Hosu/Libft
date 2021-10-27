@@ -6,11 +6,12 @@
 /*   By: ehosu <ehosu@student.42wolfsburg.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/01 09:39:44 by ehosu             #+#    #+#             */
-/*   Updated: 2021/06/01 09:42:29 by ehosu            ###   ########.fr       */
+/*   Updated: 2021/10/11 13:35:53 by ehosu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
+
 void	ft_putchar_fd(char c, int fd)
 {
 	write(fd, &c, 1);

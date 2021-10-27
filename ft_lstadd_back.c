@@ -6,11 +6,12 @@
 /*   By: ehosu <ehosu@student.42wolfsburg.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/02 16:29:21 by ehosu             #+#    #+#             */
-/*   Updated: 2021/06/14 17:32:45 by ehosu            ###   ########.fr       */
+/*   Updated: 2021/10/11 12:39:40 by ehosu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
 void	ft_lstadd_back(t_list **lst, t_list *new)
 {
 	t_list	*last;

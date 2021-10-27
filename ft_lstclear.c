@@ -6,11 +6,12 @@
 /*   By: ehosu <ehosu@student.42wolfsburg.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/03 13:03:05 by ehosu             #+#    #+#             */
-/*   Updated: 2021/06/16 11:47:13 by ehosu            ###   ########.fr       */
+/*   Updated: 2021/10/11 12:39:20 by ehosu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
 void	ft_lstclear(t_list **lst, void (*del)(void*))
 {
 	t_list	*ptr;

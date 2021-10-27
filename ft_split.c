@@ -6,11 +6,12 @@
 /*   By: ehosu <ehosu@student.42wolfsburg.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/26 15:21:29 by ehosu             #+#    #+#             */
-/*   Updated: 2021/05/28 17:42:26 by ehosu            ###   ########.fr       */
+/*   Updated: 2021/10/11 13:36:58 by ehosu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
 static int	how_many_strings(char const *s, char c)
 {
 	int		i;

@@ -6,11 +6,12 @@
 /*   By: ehosu <ehosu@student.42wolfsburg.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/31 17:14:38 by ehosu             #+#    #+#             */
-/*   Updated: 2021/05/31 17:50:52 by ehosu            ###   ########.fr       */
+/*   Updated: 2021/10/11 13:37:37 by ehosu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
 	int			s_len;

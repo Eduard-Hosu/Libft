@@ -6,11 +6,12 @@
 /*   By: ehosu <ehosu@student.42wolfsburg.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/17 13:59:12 by ehosu             #+#    #+#             */
-/*   Updated: 2021/06/04 00:38:19 by ehosu            ###   ########.fr       */
+/*   Updated: 2021/10/11 13:35:48 by ehosu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
 int	ft_memcmp(const void *str1, const void *str2, size_t n)
 {
 	size_t			i;

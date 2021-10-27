@@ -6,11 +6,12 @@
 /*   By: ehosu <ehosu@student.42wolfsburg.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/19 17:35:18 by ehosu             #+#    #+#             */
-/*   Updated: 2021/05/21 15:17:39 by ehosu            ###   ########.fr       */
+/*   Updated: 2021/10/11 13:37:10 by ehosu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
 char	*ft_strdup(const char *string)
 {
 	void	*dup;

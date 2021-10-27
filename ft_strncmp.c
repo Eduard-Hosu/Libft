@@ -6,11 +6,12 @@
 /*   By: ehosu <ehosu@student.42wolfsburg.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/13 15:10:44 by ehosu             #+#    #+#             */
-/*   Updated: 2021/06/24 12:10:44 by ehosu            ###   ########.fr       */
+/*   Updated: 2021/10/11 13:37:41 by ehosu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
 int	ft_strncmp(const char *str1, const char *str2, size_t n)
 {
 	if (n == 0)

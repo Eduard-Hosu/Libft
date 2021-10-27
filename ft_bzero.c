@@ -6,11 +6,12 @@
 /*   By: ehosu <ehosu@student.42wolfsburg.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/17 16:56:56 by ehosu             #+#    #+#             */
-/*   Updated: 2021/05/21 15:14:58 by ehosu            ###   ########.fr       */
+/*   Updated: 2021/10/11 12:33:59 by ehosu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
 void	ft_bzero(void *s, size_t n)
 {
 	size_t	i;
